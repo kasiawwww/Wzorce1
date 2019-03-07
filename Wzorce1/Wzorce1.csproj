@@ -43,8 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="AbstractFactory\CSVEditor.cs" />
+    <Compile Include="AbstractFactory\IFileEditor.cs" />
+    <Compile Include="AbstractFactory\TextEditor.cs" />
+    <Compile Include="AbstractFactory\XMLEditor.cs" />
+    <Compile Include="Builder\FileBuild\CSVBuilder.cs" />
+    <Compile Include="Builder\FileBuild\Director.cs" />
+    <Compile Include="Builder\FileBuild\IFileBuildable.cs" />
+    <Compile Include="Builder\FileBuild\TxtBuilder.cs" />
+    <Compile Include="Builder\FileBuild\XMLBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\EmployeePrototype.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
